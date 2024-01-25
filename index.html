@@ -22,7 +22,7 @@
                         <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                         </div>
-                        <h1>Hockeys</h1>
+                        <h2 class="text-black font-bold">Hockey<span class="text-red-500">'</span>s</h2>
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                       <li><a>Home</a></li>
@@ -35,13 +35,13 @@
             
                 <!-- Flex Layout for Larger Screens -->
                 <div class="hidden md:flex space-x-4">
-                    <a href="#" class="text-red-800">Hockeys</a>
+                    <h2 href="#"><b class="text-black">Hockey<span class="text-red-800">'</span>s</b></h2>
                 </div>
             </div>
 
 
             <div class="hidden md:flex">
-              <a class="btn btn-ghost text-xl">Home</a>
+              <a class="btn btn-ghost text-xl text-red-800">Home</a>
               <a class="btn btn-ghost text-xl">About</a>
               <a class="btn btn-ghost text-xl">Pages</a>
               <a class="btn btn-ghost text-xl">Blog</a>
@@ -52,7 +52,7 @@
               <button class="btn btn-ghost btn-circle">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
               </button>
-              <button class="btn btn-ghost">
+              <button class="btn bg-red-500 border-none hover:bg-red-500">
                 <div>
                   <p><span>Get Tickets</span></p>
                 </div>
@@ -102,78 +102,92 @@
             </div>
           </div>
         <!-- Your content goes here -->
-        <div class="Professional text-center p-8 max-w-md bg-gray-100 rounded-lg shadow-md">
-            <h1 class="text-3xl font-bold mb-4">Professional Hockeys Club</h1>
+        <section>
+          <div class="Professional text-center">
+            <h1 class="text-3xl font-bold mb-4 text-black">Professional Hockeys Club</h1>
             <p class="text-gray-600">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br>
                 dolor. Purus urna in sit nullam proin.</p>
         </div>
-        <div class="grid grid-cols-1 md:flex justify-center items-center h-screen">
+        </section>
+        <section>
+          <div class="grid grid-cols-1 md:flex">
             <div>
-                <div class="radial-progress text-primary" style="--value:70; color: #e4e414" role="progressbar">70%</div>
-                <h1>Prayer Facility</h1>
+                <div class="radial-progress text-primary" style="--value:70; color: #e4e414" role="progressbar"><p class="text-black font-bold">70%</p></div>
+                <h1 class="text-black font-bold">Prayer Facility</h1>
                 <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
             </div>
             <div>
-                <div class="radial-progress text-primary" style="--value:70; color: #18b569" role="progressbar">70%</div>
-                <h1>Prayer Facility</h1>
+                <div class="radial-progress text-primary" style="--value:70; color: #18b569" role="progressbar"><p class="text-black font-bold">70%</p></div>
+                <h1 class="text-black font-bold">Prayer Facility</h1>
                 <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
             </div>
             <div>
-                <div class="radial-progress text-primary" style="--value:70; color: #e44c14 " role="progressbar">70%</div>
-                <h1>Prayer Facility</h1>
+                <div class="radial-progress text-primary" style="--value:70; color: #e44c14 " role="progressbar"><p class="text-black font-bold">70%</p></div>
+                <h1 class="text-black font-bold">Prayer Facility</h1>
                 <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
             </div>
             <div>
-                <div class="radial-progress text-primary" style="--value:70; color: #2a0b9a " role="progressbar">70%</div>
-                <h1>Prayer Facility</h1>
+                <div class="radial-progress text-primary" style="--value:70; color: #2a0b9a " role="progressbar"><p class="text-black font-bold">70%</p></div>
+                <h1 class="text-black font-bold">Prayer Facility</h1>
                 <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
             </div>
             
            
         </div>
-        <div class="text-center">
-            <h1>Program Sections</h1>
+        </section>
+        
+        <section>
+          <div class="text-center">
+            <h1 class="text-black font-bold">Program Sections</h1>
             <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
         </div>
+      
+        </section>
+       
 
-
-        <div class="grid gap-4 text-center items-center text-center">
-        <div class="grid grid-cols-1 gap-4 lg:grid-cols-4 bg-white">
-          <div class="card w-96  image-full">
+      <section>
+        <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 bg-white">
+          <div class="card w-96 image-full text-center items-center">
             <figure><img src="Images/3.png" alt="Shoes" /></figure>
             <div class="card-body">
               <h2 class="card-title">Shoes!</h2>
               <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Register Now</button>
+              <div class="card-actions">
+                <button class="btn bg-red-500 border-none hover:bg-red-500">Register Now</button>
               </div>
             </div>
           </div>
 
-          <div class="card w-96 shadow-xl image-full">
+          <div class="card w-96 image-full text-center items-center">
             <figure><img src="Images/4.png" alt="Shoes" /></figure>
             <div class="card-body">
               <h2 class="card-title">Shoes!</h2>
               <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Register Now</button>
+              <div class="card-actions">
+                <button class="btn bg-red-500 border-none hover:bg-red-500">Register Now</button>
+              </div>
+          </div>
+
+        </div>
+        </div>
+
+        <div class="flex items-center justify-center mt-3">
+          <div class="card w-96 image-full text-center items-center">
+            <figure><img src="Images/3.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions">
+                <button class="btn bg-red-500 border-none hover:bg-red-500">Register Now</button>
               </div>
             </div>
           </div>
+        </div>
+        
+        
 
-        </div>
-
-        <div class="card w-96 shadow-xl image-full">
-          <figure><img src="Images/3.png" alt="Shoes" /></figure>
-          <div class="card-body">
-            <h2 class="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions justify-end">
-              <button class="btn btn-primary">Register Now</button>
-            </div>
-          </div>
-        </div>
-        </div>
+      </section>
+        
 <!-- Our new product section -->
 
           <div>
@@ -453,7 +467,7 @@
           </div>
           <input type="text" placeholder="Write your Message" class="input input-bordered w-full max-w-xs bg-white" />
         </label>
-        <button class="btn">Send a Message</button>
+        <button class="btn bg-red-500 border-none hover:bg-red-500 mt-3 mb-4">Send a Message</button>
       </div>
       </div>
     <div>
@@ -462,7 +476,7 @@
 </div>
 
 <!---Socila Media-->
-<div class="footer footer-center p-10 bg-primary text-primary-content">
+<div class="footer footer-center p-10 text-primary-content mt-3 mb-4">
     <aside>
       <p class="font-bold">
         Social Media
